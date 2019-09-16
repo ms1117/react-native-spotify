@@ -9,7 +9,6 @@ export const apiModels = async (url, method, parameters, token) => {
   let params = {};
   try {
     queryURL = `${url}`;
-    // const body = JSON.stringify(parameters);
     const headers = {
       'Content-Type': 'application/x-www-form-urlencoded',
     };
